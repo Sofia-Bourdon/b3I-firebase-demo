@@ -2,17 +2,20 @@
     "name": "firebase",
     "version": "1.0.0",
     "main": "index.js",
-    "type": "module",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "dev": "nodemon index.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack server"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "description": "",
     "dependencies": {
-      "dotenv": "^16.4.5",
-      "firebase": "^10.14.0"
+        "dotenv": "^16.4.5",
+        "dotenv-webpack": "^8.1.0",
+        "firebase": "^10.14.0",
+        "webpack": "^5.95.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.1.0"
     }
-  }
+}

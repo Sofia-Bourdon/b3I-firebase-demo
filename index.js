@@ -25,4 +25,9 @@ const getFactures = async (db) => {
 
 const factures = await getFactures(db)
 
-console.log(factures);
+factures.forEach(factures => {
+
+    if (isNaN(facture.totalTTC) || && parseFloat(facture.totalTTC) > -10) {
+        console.log(facture.id);
+    }
+});
